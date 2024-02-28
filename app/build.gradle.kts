@@ -60,7 +60,7 @@ android {
     buildTypes {
         getByName("debug") {
             val apiKey = localProperties.getProperty("apiKey")
-            buildConfigField("String", "API_KEY", "\"$apiKey\"")
+            buildConfigField("String", "API_KEY", "$apiKey")
         }
     }
 }
