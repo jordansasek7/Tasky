@@ -1,1 +1,27 @@
-/build
+# Gradle files
+.gradle/
+gradlew
+gradlew.bat
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# Avoid ignoring Gradle wrapper scripts as they are needed for building the project.
+# However, it's common to exclude the JAR and properties file which are not essential
+# to be version controlled if you're managing Gradle versions differently.
+
+# IDE-specific ignores (example for IntelliJ IDEA)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Mac OS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Java files that you might not want to include
+*.class
+*.log
